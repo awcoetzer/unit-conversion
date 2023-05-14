@@ -342,6 +342,19 @@ body {
   background-color: var(--clr-dt-accent);
 }
 
+/* to remove the scrollbar next to the number input el */
+/* Chrome, Safari, Edge, Opera */
+#input-el::-webkit-outer-spin-button,
+#input-el::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#input-el[type=number] {
+  -moz-appearance: textfield;
+}
+
 #input-el {
   text-align: center;
   border: 2px solid var(--clr-dt-accent-tint);

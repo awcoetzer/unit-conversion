@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="The Unit Conversion project requires us to build a Metric & Imperial Unit Conversion application that allows for user input to be converted into 3 different measurements, length (meter/feet), volume (liters/gallons) and mass (kilograms/pounds).">
+  <link rel="icon" href="./resources/images/favicon/unit-conversion-favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>Metric/Imperial Unit Conversion Extension</title>
+  <link rel="stylesheet" href="./resources/css/styles-ext.css">
+</head>
+<body>
+  <!-- unit conversion -->
+  <section class="section-unit-conversion">
+    <!-- unit conversion -->
+    <div class="unit-conversion">
+        <div class="project-container">
+          <!-- top section of the unit conversion -->
+          <div class="project-input-box">
+            <h4 class="heading-quaternary">
+              Metric/Imperial Unit Conversion
+            </h4>
+  
+            <input type="number" id="input-el" placeholder="0" min="0">
+            <button id="convert-btn">Convert</button>
+          </div>
+  
+          <!-- bottom section of the unit conversion -->
+          <div class="project-results-box">
+            <!-- Length -->
+            <div class="result-box">
+              <span class="result-heading">
+                Length (Meters/Feet)
+              </span>
+              <p class="result-text">
+                0 meters = 0.000 feet | 0 feet = 0.000 meters
+              </p>
+            </div>
+  
+            <!-- Volume -->
+            <div class="result-box">
+              <span class="result-heading">
+                Volume (Liters/Gallons)
+              </span>
+              <p class="result-text">
+                0 liters = 0.000 gallons | 0 gallons = 0.000 liters
+              </p>
+            </div>
+  
+            <!-- Mass -->
+            <div class="result-box">
+              <span class="result-heading">
+                Mass (Kilograms/Pounds)
+              </span>
+              <p class="result-text">
+                0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- section footer -->
+  <footer class="section-footer">
+      <div class="footer-text-box center-text">
+        <p class="done-by">
+          This project was done by <a href="https://github.com/awcoetzer" class="done-by--link" target="_blank">Andre W.
+            Coetzer</a> | <a href="https://www.freepik.com/author/catalyststuff" target="_blank"
+            class="done-by--link">Icon by
+            catalyststuff</a> on Freepik
+        </p>
+      </div>
+  </footer>
+
+  <script src="./resources/javascript/app-ext.js"></script>
+</body>
+</html>

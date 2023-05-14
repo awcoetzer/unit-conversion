@@ -3,6 +3,7 @@
 This is a solo project by <a href="https://scrimba.com/learn/frontend" target="_blank" alt="Scrimba's frontend career path web page">Scrimba's Frontend Career Path</a> for pro members
 
 #### <a href="https://unit-conversion-awcoetzer.netlify.app" target="_blank"> view the live version here</a>
+#### <a href="https://chrome.google.com/webstore/detail/awcoetzer-metric-imperial/nhgajmkmhhclpgnogkddgbbldlbhgfjg?hl=en-US" target="_blank"> chrome extension here</a>
 
 <img src="./resources/images/readme/scrimba-logo-1200x630.jpg" alt="Scrimba logo" width="100%">
 

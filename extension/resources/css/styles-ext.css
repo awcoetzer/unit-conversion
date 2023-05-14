@@ -270,10 +270,12 @@ body {
 .footer-text-box {
   padding: var(--spacing-12) 0;
 }
+
 .done-by {
   font-size: var(--font-12);
   line-height: var(--line-height-15);
   letter-spacing: var(--letter-space-n05);
+  margin-bottom: var();
 }
 
 .done-by--link,
@@ -289,4 +291,10 @@ body {
 .done-by--link:hover,
 .done-by--link:active {
   border-bottom: 1px solid var(--clr-dt-grey);
+}
+
+.ver-num {
+  font-size: var(--font-12);
+  line-height: var(--line-height-15);
+  letter-spacing: var(--letter-space-n05);
 }

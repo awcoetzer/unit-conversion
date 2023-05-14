@@ -1,10 +1,15 @@
 {
   "manifest_version": 3,
-  "version": "1.00",
+  "version": "1.02",
   "name": "awcoetzer - Metric & Imperial Unit Conversion",
   "description": "This is a small metric and imperial conversion extension",
+  "icons": {
+    "16": "./resources/images/chrome-icon/icon.png",
+    "48": "./resources/images/chrome-icon/icon.png",
+    "128": "./resources/images/chrome-icon/icon.png"
+  },
   "action": {
     "default_popup": "index.html",
-    "default_icon": "./resources/images/chome-icon/unit-conversion-extension-128x128.png"
+    "default_icon": "./resources/images/chrome-icon/icon.png"
   }
 }

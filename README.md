@@ -2,9 +2,9 @@
 
 This is a solo project by [Scrimba's Frontend Career Path](https://scrimba.com/learn/frontend "Scrimba's frontend career path web page") for pro members
 
-#### [VIEW LIVE VERSION](https://unit-conversion-awcoetzer.netlify.app)
+### <a href="https://unit-conversion-awcoetzer.netlify.app"> View the live version here</a>
 
-![Scrimba Logo](./resources/images/readme/scrimba-logo-1550x500.png "Scrimba Logo")
+<img src="./resources/images/readme/scrimba-logo-1200x630.jpg" alt="Scrimba logo" width="100%">
 
 <br>
 
@@ -12,6 +12,7 @@ This is a solo project by [Scrimba's Frontend Career Path](https://scrimba.com/l
 _What is the project all about?_
 
 The Unit Conversion project requires us to build a Metric/Imperial Unit Conversion application that allows for user input to be converted into 3 different measurements, length (meter/feet), volume (liters/gallons) and mass (kilograms/pounds).
+
 We were given a figma [file](https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion?type=design&node-id=0-13&t=kHJuzLPIuk92w5dL-0) from which to design off of and given requirements & stretch goals to can complete the project, list can be seen [here](#project-goals--stretch-goals).
 
 <br>
@@ -267,6 +268,9 @@ _Figma file, Colours, Fonts & basic file setup pertaining to this project._
 
 #### SOURCES
 _Sources used within this project_
+
+- Scrimba Bootcamp
+  - [scrimba.com/bootcamp](https://scrimba.com/bootcamp 'link to scrimba bootcamp')
 
 - Images used within the project, credit goes to catalyststuff
   - [Images by catalyststuff on Freepik](https://www.freepik.com/free-vector/boy-playing-basketball-cartoon-people-sport-icon-concept-isolated-flat-cartoon-style_10920751.htm#query=basketball&position=0&from_view=author 'Link to catalyststuff profile on Freepik')

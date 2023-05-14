@@ -256,7 +256,23 @@ body {
   margin-bottom: var(--spacing-24);
 }
 
+.hero-btns-box {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-24);
+}
+
+.top-box {
+
+}
+
+.bottom-box {
+}
+
+
 .link--hero {
+  text-align: center;
   position: relative;
   padding: var(--spacing-16) var(--spacing-24);
   border: 2px solid var(--clr-dt-accent);
@@ -264,7 +280,7 @@ body {
   transform-style: preserve-3d;
   color: var(--clr-dt-accent);
   background-color: var(--clr-dt-grey);
-  transition: transform 0.15s cubic-bezier(0, 0, 0.6, 1);
+  transition: transform 0.15s cubic-bezier(0, 0, 0.6, 1), color 0.15s ease-in;
 }
 
 .link--hero:hover {
@@ -308,6 +324,61 @@ body {
 
 .scrimba::before {
   background-image: var(--clr-dt-btn-3d-yellow);
+}
+
+.extension {
+  width: 100%;
+  color: var(--clr-dt-accent-shade);
+  background-image: linear-gradient(90deg,
+        hsl(0, 90%, 70%),
+        hsl(45, 90%, 70%),
+        hsl(90, 90%, 70%),
+        hsl(135, 90%, 70%),
+        hsl(180, 90%, 70%),
+        hsl(225, 90%, 70%),
+        hsl(270, 90%, 70%),
+        hsl(315, 90%, 70%),
+        hsl(360, 90%, 70%));
+    background-size: 400%;
+    /* animation: animate 10s linear infinite; */
+}
+
+.extension::before {
+  background-image: linear-gradient(90deg,
+        hsl(0, 90%, 40%),
+        hsl(45, 90%, 40%),
+        hsl(90, 90%, 40%),
+        hsl(135, 90%, 40%),
+        hsl(180, 90%, 40%),
+        hsl(225, 90%, 40%),
+        hsl(270, 90%, 40%),
+        hsl(315, 90%, 40%),
+        hsl(360, 90%, 40%));
+    background-size: 400%;
+    /* animation: animate 10s linear infinite; */
+}
+
+.extension:hover {
+  color: var(--clr-dt-main);
+  animation: animate 5s linear infinite;
+}
+
+.extension:hover::before {
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
 }
 
 .hero-image-box {

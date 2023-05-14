@@ -21,7 +21,7 @@ We were given a figma <a href="https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc
 #### PROJECT SCREENS
 _Some screenshots of the projects_
 
-<img src="./resources/images/readme/full-project.png" width="50%" alt="screenshot of project, full size version"> <img src="./resources/images/readme/full-project-responsive.png" width="12.03%" alt="screenshot of project, responsive version">
+<img src="./resources/images/readme/full-project.png" width="50%" alt="screenshot of project, full size version"> <img src="./resources/images/readme/full-project-responsive.png" width="11.5%" alt="screenshot of project, responsive version">
 
 <br>
 

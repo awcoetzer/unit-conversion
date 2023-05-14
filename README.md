@@ -19,7 +19,7 @@ We were given a figma [file](https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/U
 #### PROJECT SCREENS
 _Some screenshots of the projects_
 
-<img src="./resources/images/readme/full-project.png" width="50%" alt="screenshot of project, full size version"> <img src="./resources/images/readme/full-project-responsive.png" width="10.94%" alt="screenshot of project, responsive version">
+<img src="./resources/images/readme/full-project.png" width="50%" alt="screenshot of project, full size version"> <img src="./resources/images/readme/full-project-responsive.png" width="12.03%" alt="screenshot of project, responsive version">
 
 <br>
 
@@ -67,7 +67,9 @@ _Figma file, Colours, Fonts & basic file setup pertaining to this project._
 - Figma file can be found [here](https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion?type=design&node-id=0-13&t=kHJuzLPIuk92w5dL-0)
 - Font used within project
   - ```html
-      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     ```
 
   - ```css
@@ -76,41 +78,42 @@ _Figma file, Colours, Fonts & basic file setup pertaining to this project._
 
 - Color palette used within project
   - ```css
-      /- color palettes -/
-      /- main colors -/
-      --clr-dt-main-shade: ;
-      --clr-dt-main: ;
-      --clr-dt-main-tint: ;
+      /* color palettes */
+      /* main colors */
+      --clr-dt-main-shade: hsl(215, 28%, 3%);
+      --clr-dt-main: hsl(215, 28%, 17%);
+      --clr-dt-main-tint: hsl(215, 30%, 22%);
 
-      /- text colors -/
-      --clr-dt-grey: ;
+      /* text colors */
+      --clr-dt-grey-offset: hsl(251, 100%, 88%);
+      --clr-dt-grey: hsl(0, 0%, 100%);
 
-      /- accent colors -/
-      --clr-dt-accent-shade: ;
-      --clr-dt-accent: ;
-      --clr-dt-accent-tint: ;
+      /* accent colors */
+      --clr-dt-accent-shade: hsl(252, 100%, 58%);
+      --clr-dt-accent: hsl(252, 100%, 63%);
+      --clr-dt-accent-tint: hsl(252, 100%, 73%);
 
-      /- button -/
-      --clr-dt-btn-3d-white: linear-gradient(140deg, hsl(0, 0%, 100%), hsl(0, 0%, 40%));
-      --clr-dt-btn-3d-green: linear-gradient(140deg, hsl(144, 70%, 58%), hsl(144, 70%, 18%));
-      --clr-dt-btn-shadow: #273549;
+      --clr-dt-accent-yellow: hsl(50, 100%, 58%);
 
+      /* 3d button */
+      --clr-dt-btn-3d-white: linear-gradient(140deg, hsl(0, 0%, 100%), hsl(0, 0%, 70%));
+      --clr-dt-btn-3d-yellow: linear-gradient(140deg, hsl(50, 100%, 58%), hsl(50, 100%, 38%));
+      --clr-dt-btn-shadow: hsl(215, 30%, 22%);
     ```
 - General project variables layout
   - ```css
-    /- project variables -/
     :root {
-      /- generic document setup -/
-      /- typeface -/
+      /* generic document setup */
+      /* typeface */
       --typeface-sans: 'Inter', sans-serif;
 
-      /- percentage fonts -/
+      /* percentage fonts */
       --percentage-font-10: 62.5%;
       --percentage-font-9: 56.25%;
       --percentage-font-8: 50%;
       --percentage-font-7: 43.75%;
 
-      /- font size -/
+      /* font size */
       --font-10: 1rem;
       --font-12: 1.2rem;
       --font-14: 1.4rem;
@@ -128,12 +131,12 @@ _Figma file, Colours, Fonts & basic file setup pertaining to this project._
       --font-86: 8.6rem;
       --font-98: 9.8rem;
 
-      /- font weight -/
+      /* font weight */
       --font-weight-400: 400;
       --font-weight-500: 500;
       --font-weight-700: 700;
 
-      /- spacing system -/
+      /* spacing system */
       --spacing-2: 0.2rem;
       --spacing-4: 0.4rem;
       --spacing-8: 0.8rem;
@@ -147,25 +150,25 @@ _Figma file, Colours, Fonts & basic file setup pertaining to this project._
       --spacing-96: 9.6rem;
       --spacing-128: 12.8rem;
 
-      /- border radius -/
+      /* border radius */
       --border-rad-05: 0.5rem;
       --border-rad-1: 1rem;
       --border-rad-100: 10rem;
       --border-rad-round: 50%;
 
-      /- line height -/
+      /* line height */
       --line-height-1: 1;
       --line-height-11: 1.1;
       --line-height-15: 1.5;
       --line-height-17: 1.7;
 
-      /- letter spacing -/
+      /* letter spacing */
       --letter-space-n05: -0.5px;
       --letter-space-n1: -1px;
       --letter-space-p05: 0.5px;
       --letter-space-p1: 1px;
 
-      /- color palettes -/
+      /* color palettes */
       --clr-main-shade: ;
       --clr-main: ;
       --clr-main-tint: ;
@@ -176,11 +179,11 @@ _Figma file, Colours, Fonts & basic file setup pertaining to this project._
       --clr-accent: ;
       --clr-accent-tint: ;
 
-      /- project document setup -/
-      /- project typeface -/
+      /* project document setup */
+      /* project typeface */
       --project-typeface-:;
 
-      /- color palettes -/
+      /* color palettes */
       --clr-main-shade: ;
       --clr-main: ;
       --clr-main-tint: ;

@@ -1,8 +1,8 @@
-#### [SCRIMBA](https://scrimba.com "Scrimba's website") | MODULE 3 | METRIC/IMPERIAL UNIT CONVERSION
+#### [SCRIMBA](https://scrimba.com "Scrimba's website") <a href="" target="_blank"></a> | MODULE 3 | METRIC/IMPERIAL UNIT CONVERSION
 
-This is a solo project by [Scrimba's Frontend Career Path](https://scrimba.com/learn/frontend "Scrimba's frontend career path web page") for pro members
+This is a solo project by <a href="https://scrimba.com/learn/frontend" target="_blank" alt="Scrimba's frontend career path web page">Scrimba's Frontend Career Path</a> for pro members
 
-### <a href="https://unit-conversion-awcoetzer.netlify.app"> View the live version here</a>
+#### <a href="https://unit-conversion-awcoetzer.netlify.app" target="_blank"> view the live version here</a>
 
 <img src="./resources/images/readme/scrimba-logo-1200x630.jpg" alt="Scrimba logo" width="100%">
 
@@ -13,7 +13,7 @@ _What is the project all about?_
 
 The Unit Conversion project requires us to build a Metric/Imperial Unit Conversion application that allows for user input to be converted into 3 different measurements, length (meter/feet), volume (liters/gallons) and mass (kilograms/pounds).
 
-We were given a figma [file](https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion?type=design&node-id=0-13&t=kHJuzLPIuk92w5dL-0) from which to design off of and given requirements & stretch goals to can complete the project, list can be seen [here](#project-goals--stretch-goals).
+We were given a figma <a href="https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion?type=design&node-id=0-13&t=kHJuzLPIuk92w5dL-0" target="_blank" alt="Link to the Fogma design file">file</a> from which to design off of and given requirements & stretch goals to can complete the project, list can be seen [here](#project-goals--stretch-goals).
 
 <br>
 
@@ -28,7 +28,7 @@ _Some screenshots of the projects_
 _What is required to run this project_
 
 - Knowledge on HTML, CSS & JavaScript.
-- Editor | _recommendation: [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code Website")_
+- Editor | _recommendation: <a href="https://code.visualstudio.com/" target="_blank" src="Visual Studio Code Website">Visual Studio Code</a>_
 - Just another lemon tree.
 
 <br>
@@ -65,7 +65,7 @@ _Project instructions & challenges_
 #### DESIGN NOTES
 _Figma file, Colours, Fonts & basic file setup pertaining to this project._
 
-- Figma file can be found [here](https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion?type=design&node-id=0-13&t=kHJuzLPIuk92w5dL-0)
+- Figma file can be found <a href="https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion?type=design&node-id=0-13&t=kHJuzLPIuk92w5dL-0" target="_blank" alt="Link to the Fogma design file">here</a>
 - Font used within project
   - ```html
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -270,18 +270,17 @@ _Figma file, Colours, Fonts & basic file setup pertaining to this project._
 _Sources used within this project_
 
 - Scrimba Bootcamp
-  - [scrimba.com/bootcamp](https://scrimba.com/bootcamp 'link to scrimba bootcamp')
-
+  - <a href="https://scrimba.com/bootcamp " target="_blank" alt="link to scrimba bootcamp">scrimba.com/bootcamp</a>
 - Images used within the project, credit goes to catalyststuff
-  - [Images by catalyststuff on Freepik](https://www.freepik.com/free-vector/boy-playing-basketball-cartoon-people-sport-icon-concept-isolated-flat-cartoon-style_10920751.htm#query=basketball&position=0&from_view=author 'Link to catalyststuff profile on Freepik')
+  - <a href="https://www.freepik.com/free-vector/boy-playing-basketball-cartoon-people-sport-icon-concept-isolated-flat-cartoon-style_10920751.htm#query=basketball&position=0&from_view=author" target="_blank" alt="Link to catalyststuff profile on Freepik">Images by catalyststuff on Freepik</a>
 - Removing image background
-  - [removal.ai](https://removal.ai/upload/ 'A link to a site named removal.ai, which helps to remove image backgrounds, great for small projects like this')
+  - <a href="https://removal.ai/upload/" target="_blank" alt="A link to a site named removal.ai, which helps to remove image backgrounds, great for small projects like this">removal.ai</a>
 - Image resizing for better optimization
-  - [squoosh.app](https://squoosh.app/ 'A link to a website named Squoosh that helps for image file types and compression for better site optimization')
+  - <a href="https://squoosh.app/" target="_blank" alt="A link to a website named Squoosh that helps for image file types and compression for better site optimization">squoosh.app</a>
 
 <br>
 
 #### CREDITS
 _Those who worked on the project_
 
-- [Andre W. Coetzer](https://github.com/awcoetzer)
+- <a href="https://github.com/awcoetzer" target="_blank">Andre W. Coetzer</a>

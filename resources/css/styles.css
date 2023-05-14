@@ -71,16 +71,16 @@
   /* color palettes */
   /* main colors */
   --clr-dt-main-shade: hsl(215, 28%, 3%);
-  --clr-dt-main: #1F2937;
-  --clr-dt-main-tint: #273549;
+  --clr-dt-main: hsl(215, 28%, 17%);
+  --clr-dt-main-tint: hsl(215, 30%, 22%);
 
   /* text colors */
-  --clr-dt-grey-offset: #CCC1FF;
-  --clr-dt-grey: #fff;
+  --clr-dt-grey-offset: hsl(251, 100%, 88%);
+  --clr-dt-grey: hsl(0, 0%, 100%);
 
   /* accent colors */
   --clr-dt-accent-shade: hsl(252, 100%, 58%);
-  --clr-dt-accent: #6943FF;
+  --clr-dt-accent: hsl(252, 100%, 63%);
   --clr-dt-accent-tint: hsl(252, 100%, 73%);
 
   --clr-dt-accent-yellow: hsl(50, 100%, 58%);
@@ -88,7 +88,7 @@
   /* button */
   --clr-dt-btn-3d-white: linear-gradient(140deg, hsl(0, 0%, 100%), hsl(0, 0%, 70%));
   --clr-dt-btn-3d-yellow: linear-gradient(140deg, hsl(50, 100%, 58%), hsl(50, 100%, 38%));
-  --clr-dt-btn-shadow: #273549;
+  --clr-dt-btn-shadow: hsl(215, 30%, 22%);
 }
 
 html {

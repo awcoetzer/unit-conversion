@@ -224,7 +224,7 @@ body {
   border: none;
   border-radius: var(--border-rad-05);
   width: 100%;
-  max-width: 11.7rem;
+  width: 11.7rem;
   height: 4.2rem;
   font-size: var(--font-16);
   font-weight: var(--font-weight-500);

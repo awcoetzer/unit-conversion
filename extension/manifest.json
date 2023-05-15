@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "1.02",
+  "version": "1.03",
   "name": "awcoetzer - Metric & Imperial Unit Conversion",
   "description": "This is a small metric and imperial conversion extension",
   "icons": {

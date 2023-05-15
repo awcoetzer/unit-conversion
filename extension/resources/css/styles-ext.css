@@ -261,6 +261,7 @@ body {
 }
 
 .result-text {
+  text-align: center;
   font-size: var(--font-14);
   font-weight: var(--font-weight-400);
   line-height: 2rem;
